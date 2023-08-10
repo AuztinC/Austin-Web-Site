@@ -67,6 +67,10 @@ nav a {
     color: #232323;
     border-radius: 2px;
     background-color: rgb(235, 235, 235);
+    box-shadow: 0px 3px 6px -2px white;
+}
+.porth1{
+    border-bottom: 1px solid;
 }
 .port div {
     display: flex;
