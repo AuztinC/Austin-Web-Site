@@ -46,6 +46,7 @@ nav a {
     text-align: center;
     margin-top: 2em;
 }
+
 .about{
     display: block;
     border-top: 1px white solid;
@@ -58,6 +59,30 @@ nav a {
     float: right;
     margin: 0 0px 24px 24pxpx;
 }
-img{
+.about img{
     height: 128px;
+}
+
+.port{
+    color: #232323;
+    border-radius: 2px;
+    background-color: rgb(235, 235, 235);
+}
+.port div {
+    display: flex;
+}
+.portP{
+    flex-direction: column;
+}
+.port img{
+    /* display: inline-block; */
+    height: 200px;
+    float: right;
+    margin: 0px 5px 10px 0;
+}
+.port h1{
+    padding-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 1px solid;
 }
